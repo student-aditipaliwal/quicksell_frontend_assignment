@@ -1,41 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Quicksell Assignment for Frontend :
 
-## Available Scripts
+# **Use React JS for the Assignment**
 
-In the project directory, you can run:
+**Designs:** 
 
-### `npm start`
+**Display state:** 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot (22)](https://github.com/user-attachments/assets/4b04f074-d5ca-4e9d-9356-cf2ec527afb3)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+**State based on display. - Grouping by user is selected.**
+![Screenshot (23)](https://github.com/user-attachments/assets/754edb06-cb16-4024-bf11-ff0aec795e2c)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Grouping by priority is selected.**
+![Screenshot (24)](https://github.com/user-attachments/assets/1254cb75-7c60-4def-9954-495f5e370b5e)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**Api** :  https://api.quicksell.co/v1/internal/frontend-assignment 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+When a user clicks the "display" button and selects a grouping option, the Kanban board should dynamically adjust to reflect the user's choice.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application offers three distinct ways to group the data:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **By Status**: Group tickets based on their current status.
+2. **By User**: Arrange tickets according to the assigned user.
+3. **By Priority**: Group tickets based on their priority level.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+It is able to sort the displayed tickets in two ways:
 
+1. **Priority**: Arrange tickets in descending order of priority.
+2. **Title**: Sort tickets in ascending order based on their title.
+
+The Kanban board should be responsive and visually appealing, with a design similar to the provided screenshot. 
+This is a resposive Kanban Board 
+
+**Here Are  priority levels for the tickets are as follows:**
+
+- Urgent (Priority level 4)
+- High (Priority level 3)
+- Medium (Priority level 2)
+- Low (Priority level 1)
+- No priority (Priority level 0)
+
+**Priority levels: **
+
+4 - Urgent
+
+3 - High
+
+2 - Medium
+
+1 - Low
+
+0 - No priority
